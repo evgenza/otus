@@ -5,7 +5,7 @@
 5. Вывести в консоль информацию о файловой системе (точки монтирования, занимаемый размер, свободное место): `df -h`
 6. Информацию из пункта 5 вывести в файл fsInfo: `df -h > fsInfo`
 7. Вывести на экран содержимое файла fsInfo: `cat fsInfo`
-8. Вывести на экран строчки файла fsInfo, в которых есть цифра 1, если таких нет, то цифра 2: `grep "1" fsInfo || echo "2"`
+8. Вывести на экран строчки файла fsInfo, в которых есть цифра 1, если таких нет, то цифра 2: `grep "1" fsInfo || echo "8"`
 9. Сделать копию файла fsInfo - fsInfoCopy: `cp fsInfo fsInfoCopy`
 10. Сделать копию файла fsInfo - fsInfoCopy2: `cp fsInfo fsInfoCopy2`
 11. Переименовать fsInfoCopy2 в fsInfoCopy3: `mv fsInfoCopy2 fsInfoCopy3`
